@@ -81,6 +81,7 @@ public class DependencyDownloader {
 		}
 		downloaderActive = global.getBoolean("download");
 		downloadDependency();
+		Bukkit.reload();
 	}
 
 	/**
